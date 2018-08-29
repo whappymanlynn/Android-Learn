@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/send_notice"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_gravity="top|left"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Send notice1"/>
+    <Button
+        android:id="@+id/send_notice2"
+        android:background="@android:color/holo_red_dark"
+        android:layout_gravity="top|right"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Send notice2"/>
+    <Button
+        android:id="@+id/send_notice3"
+        android:background="@android:color/white"
+        android:layout_gravity="bottom|left"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Send notice3"/>
+    <Button
+        android:id="@+id/send_notice4"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="bottom|right"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        android:text="Send notice4"/>
+</android.support.percent.PercentFrameLayout>
